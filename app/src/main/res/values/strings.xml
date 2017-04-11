@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CoolCalculator</string>
+    <string name="ac_text">AC</string>
+    <string name="plus_minus_text">+/-</string>
+    <string name="percent_text">%</string>
+    <string name="division_text">&#247;</string>
+    <string name="seven_text">7</string>
+    <string name="eight_text">8</string>
+    <string name="nine_text">9</string>
+    <string name="plus_te"
+</resources>
