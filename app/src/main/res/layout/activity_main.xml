@@ -25,7 +25,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="AC"
-            android:textSize="@dimen/regularText" />
+            android:textSize="@dimen/regularText"
+            android:onClick="clearClicked"
+            />
 
         <Button
             android:layout_width="wrap_content"
@@ -33,6 +35,7 @@
             android:text="+/-"
             android:textSize="@dimen/regularText"
             android:id="@+id/plus_minus"
+            android:onClick="plus_minusClicked"
             />
 
         <Button
@@ -41,6 +44,7 @@
             android:text="%"
             android:textSize="@dimen/regularText"
             android:id="@+id/percent"
+            android:onClick="percentClicked"
             />
 
         <Button
@@ -51,6 +55,7 @@
             android:background="@color/orangeBackground"
             android:textColor="@color/whiteText"
             android:id="@+id/division"
+            android:onClick="divisionClicked"
             />
 
 
@@ -108,6 +113,7 @@
             android:text="4"
             android:textSize="@dimen/regularText"
             android:id="@+id/four_button"
+            android:onClick="fourClicked"
             />
         <Button
             android:layout_width="wrap_content"
@@ -115,12 +121,15 @@
             android:text="5"
             android:textSize="@dimen/regularText"
             android:id="@+id/five_button"
+            android:onClick="fiveClicked"
             />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="6"
             android:textSize="@dimen/regularText"
+            android:id="@+id/six_button"
+            android:onClick="sixClicked"
             />
         <Button
             android:layout_width="wrap_content"
@@ -129,6 +138,8 @@
             android:textSize="@dimen/regularText"
             android:background="@color/orangeBackground"
             android:textColor="@color/whiteText"
+            android:id="@+id/minus_button"
+            android:onClick="minusClicked"
             />
 
 
@@ -143,18 +154,24 @@
             android:layout_height="wrap_content"
             android:text="1"
             android:textSize="@dimen/regularText"
+            android:id="@+id/one_button"
+            android:onClick="oneClicked"
             />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="2"
             android:textSize="@dimen/regularText"
+            android:id="@+id/two_button"
+            android:onClick="twoClicked"
             />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="3"
             android:textSize="@dimen/regularText"
+            android:id="@+id/three_button"
+            android:onClick="threeClicked"
             />
         <Button
             android:layout_width="wrap_content"
@@ -163,6 +180,8 @@
             android:textSize="@dimen/regularText"
             android:background="@color/orangeBackground"
             android:textColor="@color/whiteText"
+            android:id="@+id/plus_button"
+            android:onClick="plusClicked"
             />
 
 
@@ -175,14 +194,18 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="0                  "
+            android:text="   0               "
             android:textSize="@dimen/regularText"
+            android:id="@+id/zero_button"
+            android:onClick="zeroClicked"
             />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="."
             android:textSize="@dimen/regularText"
+            android:id="@+id/decimal_button"
+            android:onClick="decimalClicked"
             />
         <Button
             android:layout_width="wrap_content"
@@ -191,6 +214,8 @@
             android:textSize="@dimen/regularText"
             android:background="@color/orangeBackground"
             android:textColor="@color/whiteText"
+            android:id="@+id/equals_button"
+            android:onClick="equalsClicked"
             />
 
 
